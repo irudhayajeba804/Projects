@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: black;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700 !important;
+}
+#mynavbar a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#mynavbar a:hover{
+    border-bottom: 2px solid #29f700;
+
+}
+.btn1{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#carouselExampleIndicators{
+    
+    width: 1300px;
+    height: 450px;
+}
+.carousel-inner{
+    width: 1300px;
+    height: 400px;
+
+}
+.carousel-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+#home{
+    background: sandybrown;
+    background-size: 50%;
+    background-position: 50%;
+}
+#home h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0PX #CCC,
+                 0px 2px 0PX #CCC,
+                 0px 3px 0PX #CCC,
+                 0px 4px 0PX #CCC,
+                 0px 5px 0PX #CCC,
+                 0px 6px 0PX #CCC;
+
+}
+#home p{
+    font-size: 18px;
+    color: #CCC;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: green !important;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
+}
+#about{
+    background: linear-gradient(to right,#fdfafa, #17b402 100%);
+
+}
+#about .img-fluid{
+    background-color: #79b971;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(28, 131, 28, 0.795) !important;
+
+}
+#about p{
+    color: rgb(9, 41, 6);
+    font-size: 15px;
+
+}
+#products{
+    background: #e5e5e5;
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#products img{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card:hover{
+     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+                inset -4px -4px 10px white;
+                transition: .2s;
+
+}
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    margin-top:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 0, 0, .8);
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+       
+
+
+
+
+
+
+
+
